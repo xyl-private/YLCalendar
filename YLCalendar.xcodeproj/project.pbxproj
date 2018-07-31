@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		66D81807C02E938C6EBE8943 /* libPods-YLCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */; };
+		7B4766BF21105C2B009BE3C0 /* YLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */; };
 		7B892A7421103910004994C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A7321103910004994C8 /* AppDelegate.m */; };
-		7B892A7721103910004994C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A7621103910004994C8 /* ViewController.m */; };
 		7B892A7A21103910004994C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7821103910004994C8 /* Main.storyboard */; };
 		7B892A7C21103913004994C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7B21103913004994C8 /* Assets.xcassets */; };
 		7B892A7F21103913004994C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7D21103913004994C8 /* LaunchScreen.storyboard */; };
@@ -20,11 +20,11 @@
 /* Begin PBXFileReference section */
 		1BDEEC16F77312E69F23F63E /* Pods-YLCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar/Pods-YLCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4766BD21105C2B009BE3C0 /* YLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHomeViewController.h; sourceTree = "<group>"; };
+		7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLHomeViewController.m; sourceTree = "<group>"; };
 		7B892A6F21103910004994C8 /* YLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B892A7221103910004994C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B892A7321103910004994C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B892A7521103910004994C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B892A7621103910004994C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B892A7921103910004994C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B892A7B21103913004994C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B892A7E21103913004994C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B4766BC21105BED009BE3C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7B892A7821103910004994C8 /* Main.storyboard */,
+				7B892A7B21103913004994C8 /* Assets.xcassets */,
+				7B892A7D21103913004994C8 /* LaunchScreen.storyboard */,
+				7B892A8121103913004994C8 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7B892A6621103910004994C8 = {
 			isa = PBXGroup;
 			children = (
@@ -78,14 +89,11 @@
 			children = (
 				7B892A7221103910004994C8 /* AppDelegate.h */,
 				7B892A7321103910004994C8 /* AppDelegate.m */,
-				7B892A7521103910004994C8 /* ViewController.h */,
-				7B892A7621103910004994C8 /* ViewController.m */,
+				7B4766BD21105C2B009BE3C0 /* YLHomeViewController.h */,
+				7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */,
 				7B892A8821103C44004994C8 /* Calendar */,
-				7B892A7821103910004994C8 /* Main.storyboard */,
-				7B892A7B21103913004994C8 /* Assets.xcassets */,
-				7B892A7D21103913004994C8 /* LaunchScreen.storyboard */,
 				7B892A8021103913004994C8 /* Info.plist */,
-				7B892A8121103913004994C8 /* main.m */,
+				7B4766BC21105BED009BE3C0 /* Resource */,
 			);
 			path = YLCalendar;
 			sourceTree = "<group>";
@@ -232,8 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4766BF21105C2B009BE3C0 /* YLHomeViewController.m in Sources */,
 				7B892A8F21103C79004994C8 /* YLCalendarController.m in Sources */,
-				7B892A7721103910004994C8 /* ViewController.m in Sources */,
 				7B892A8221103913004994C8 /* main.m in Sources */,
 				7B892A7421103910004994C8 /* AppDelegate.m in Sources */,
 			);

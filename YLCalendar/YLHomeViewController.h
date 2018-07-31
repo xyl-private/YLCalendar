@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YLHomeViewController.h
 //  YLCalendar
 //
 //  Created by McIntosh on 2018/7/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YLHomeViewController : UIViewController
 
 @end
-
