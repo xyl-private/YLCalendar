@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		66D81807C02E938C6EBE8943 /* libPods-YLCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */; };
 		7B4766BF21105C2B009BE3C0 /* YLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */; };
+		7B4766C421105DA8009BE3C0 /* JYJobCalendarEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766C121105DA8009BE3C0 /* JYJobCalendarEventModel.m */; };
+		7B4766C521105DA8009BE3C0 /* JYJobCalendarEventAddModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766C321105DA8009BE3C0 /* JYJobCalendarEventAddModel.m */; };
+		7B4766C821105DB4009BE3C0 /* JYJobCalendarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766C721105DB4009BE3C0 /* JYJobCalendarViewModel.m */; };
+		7B4766D321105DCC009BE3C0 /* JYJobCalendarEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766C921105DCB009BE3C0 /* JYJobCalendarEventCell.m */; };
+		7B4766D421105DCC009BE3C0 /* JYJobCalendarEventInfoTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766CD21105DCB009BE3C0 /* JYJobCalendarEventInfoTitleCell.m */; };
+		7B4766D521105DCC009BE3C0 /* JYJobCalendarEventInfoContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766CE21105DCB009BE3C0 /* JYJobCalendarEventInfoContentCell.m */; };
+		7B4766D621105DCC009BE3C0 /* JYJobCalendarEventNorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766CF21105DCB009BE3C0 /* JYJobCalendarEventNorView.m */; };
+		7B4766D721105DCC009BE3C0 /* JYJobCalendarTitleDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4766D221105DCC009BE3C0 /* JYJobCalendarTitleDateView.m */; };
 		7B892A7421103910004994C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A7321103910004994C8 /* AppDelegate.m */; };
 		7B892A7A21103910004994C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7821103910004994C8 /* Main.storyboard */; };
 		7B892A7C21103913004994C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7B21103913004994C8 /* Assets.xcassets */; };
@@ -22,6 +30,22 @@
 		44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4766BD21105C2B009BE3C0 /* YLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHomeViewController.h; sourceTree = "<group>"; };
 		7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLHomeViewController.m; sourceTree = "<group>"; };
+		7B4766C021105DA8009BE3C0 /* JYJobCalendarEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventModel.h; sourceTree = "<group>"; };
+		7B4766C121105DA8009BE3C0 /* JYJobCalendarEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventModel.m; sourceTree = "<group>"; };
+		7B4766C221105DA8009BE3C0 /* JYJobCalendarEventAddModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventAddModel.h; sourceTree = "<group>"; };
+		7B4766C321105DA8009BE3C0 /* JYJobCalendarEventAddModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventAddModel.m; sourceTree = "<group>"; };
+		7B4766C621105DB4009BE3C0 /* JYJobCalendarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarViewModel.h; sourceTree = "<group>"; };
+		7B4766C721105DB4009BE3C0 /* JYJobCalendarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarViewModel.m; sourceTree = "<group>"; };
+		7B4766C921105DCB009BE3C0 /* JYJobCalendarEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventCell.m; sourceTree = "<group>"; };
+		7B4766CA21105DCB009BE3C0 /* JYJobCalendarEventInfoContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventInfoContentCell.h; sourceTree = "<group>"; };
+		7B4766CB21105DCB009BE3C0 /* JYJobCalendarEventInfoTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventInfoTitleCell.h; sourceTree = "<group>"; };
+		7B4766CC21105DCB009BE3C0 /* JYJobCalendarEventNorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventNorView.h; sourceTree = "<group>"; };
+		7B4766CD21105DCB009BE3C0 /* JYJobCalendarEventInfoTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventInfoTitleCell.m; sourceTree = "<group>"; };
+		7B4766CE21105DCB009BE3C0 /* JYJobCalendarEventInfoContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventInfoContentCell.m; sourceTree = "<group>"; };
+		7B4766CF21105DCB009BE3C0 /* JYJobCalendarEventNorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarEventNorView.m; sourceTree = "<group>"; };
+		7B4766D021105DCB009BE3C0 /* JYJobCalendarTitleDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarTitleDateView.h; sourceTree = "<group>"; };
+		7B4766D121105DCB009BE3C0 /* JYJobCalendarEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYJobCalendarEventCell.h; sourceTree = "<group>"; };
+		7B4766D221105DCC009BE3C0 /* JYJobCalendarTitleDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYJobCalendarTitleDateView.m; sourceTree = "<group>"; };
 		7B892A6F21103910004994C8 /* YLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B892A7221103910004994C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B892A7321103910004994C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,8 +116,8 @@
 				7B4766BD21105C2B009BE3C0 /* YLHomeViewController.h */,
 				7B4766BE21105C2B009BE3C0 /* YLHomeViewController.m */,
 				7B892A8821103C44004994C8 /* Calendar */,
-				7B892A8021103913004994C8 /* Info.plist */,
 				7B4766BC21105BED009BE3C0 /* Resource */,
+				7B892A8021103913004994C8 /* Info.plist */,
 			);
 			path = YLCalendar;
 			sourceTree = "<group>";
@@ -112,6 +136,10 @@
 		7B892A8921103C5D004994C8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B4766C021105DA8009BE3C0 /* JYJobCalendarEventModel.h */,
+				7B4766C121105DA8009BE3C0 /* JYJobCalendarEventModel.m */,
+				7B4766C221105DA8009BE3C0 /* JYJobCalendarEventAddModel.h */,
+				7B4766C321105DA8009BE3C0 /* JYJobCalendarEventAddModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +147,16 @@
 		7B892A8A21103C5D004994C8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7B4766D121105DCB009BE3C0 /* JYJobCalendarEventCell.h */,
+				7B4766C921105DCB009BE3C0 /* JYJobCalendarEventCell.m */,
+				7B4766CA21105DCB009BE3C0 /* JYJobCalendarEventInfoContentCell.h */,
+				7B4766CE21105DCB009BE3C0 /* JYJobCalendarEventInfoContentCell.m */,
+				7B4766CB21105DCB009BE3C0 /* JYJobCalendarEventInfoTitleCell.h */,
+				7B4766CD21105DCB009BE3C0 /* JYJobCalendarEventInfoTitleCell.m */,
+				7B4766CC21105DCB009BE3C0 /* JYJobCalendarEventNorView.h */,
+				7B4766CF21105DCB009BE3C0 /* JYJobCalendarEventNorView.m */,
+				7B4766D021105DCB009BE3C0 /* JYJobCalendarTitleDateView.h */,
+				7B4766D221105DCC009BE3C0 /* JYJobCalendarTitleDateView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -135,6 +173,8 @@
 		7B892A8C21103C5D004994C8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7B4766C621105DB4009BE3C0 /* JYJobCalendarViewModel.h */,
+				7B4766C721105DB4009BE3C0 /* JYJobCalendarViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -241,8 +281,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B4766BF21105C2B009BE3C0 /* YLHomeViewController.m in Sources */,
+				7B4766D421105DCC009BE3C0 /* JYJobCalendarEventInfoTitleCell.m in Sources */,
+				7B4766C521105DA8009BE3C0 /* JYJobCalendarEventAddModel.m in Sources */,
+				7B4766C821105DB4009BE3C0 /* JYJobCalendarViewModel.m in Sources */,
 				7B892A8F21103C79004994C8 /* YLCalendarController.m in Sources */,
+				7B4766D621105DCC009BE3C0 /* JYJobCalendarEventNorView.m in Sources */,
 				7B892A8221103913004994C8 /* main.m in Sources */,
+				7B4766D321105DCC009BE3C0 /* JYJobCalendarEventCell.m in Sources */,
+				7B4766D521105DCC009BE3C0 /* JYJobCalendarEventInfoContentCell.m in Sources */,
+				7B4766C421105DA8009BE3C0 /* JYJobCalendarEventModel.m in Sources */,
+				7B4766D721105DCC009BE3C0 /* JYJobCalendarTitleDateView.m in Sources */,
 				7B892A7421103910004994C8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
