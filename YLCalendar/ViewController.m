@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "YLCalendarController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)calendarAction:(id)sender {
+    YLCalendarController * cc = [[YLCalendarController alloc] init];
+    [self.navigationController pushViewController:cc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
