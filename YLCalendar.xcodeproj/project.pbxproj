@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66D81807C02E938C6EBE8943 /* libPods-YLCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */; };
 		7B892A7421103910004994C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A7321103910004994C8 /* AppDelegate.m */; };
 		7B892A7721103910004994C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A7621103910004994C8 /* ViewController.m */; };
 		7B892A7A21103910004994C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7821103910004994C8 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BDEEC16F77312E69F23F63E /* Pods-YLCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar/Pods-YLCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B892A6F21103910004994C8 /* YLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B892A7221103910004994C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B892A7321103910004994C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		7B892A7E21103913004994C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B892A8021103913004994C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B892A8121103913004994C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4637F472B3148B180D95488 /* Pods-YLCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar/Pods-YLCalendar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D81807C02E938C6EBE8943 /* libPods-YLCalendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64CE5D1A4258036091835C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E9756F36E6CBC54A1442DF /* libPods-YLCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B892A6621103910004994C8 = {
 			isa = PBXGroup;
 			children = (
 				7B892A7121103910004994C8 /* YLCalendar */,
 				7B892A7021103910004994C8 /* Products */,
+				8FD561ECCACB18FE91207459 /* Pods */,
+				64CE5D1A4258036091835C99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = YLCalendar;
 			sourceTree = "<group>";
 		};
+		8FD561ECCACB18FE91207459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BDEEC16F77312E69F23F63E /* Pods-YLCalendar.debug.xcconfig */,
+				E4637F472B3148B180D95488 /* Pods-YLCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B892A8521103913004994C8 /* Build configuration list for PBXNativeTarget "YLCalendar" */;
 			buildPhases = (
+				22F68A4A3B86AF43ADFDACFB /* [CP] Check Pods Manifest.lock */,
 				7B892A6B21103910004994C8 /* Sources */,
 				7B892A6C21103910004994C8 /* Frameworks */,
 				7B892A6D21103910004994C8 /* Resources */,
@@ -135,6 +160,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F68A4A3B86AF43ADFDACFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B892A6B21103910004994C8 /* Sources */ = {
@@ -281,6 +327,7 @@
 		};
 		7B892A8621103913004994C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDEEC16F77312E69F23F63E /* Pods-YLCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +346,7 @@
 		};
 		7B892A8721103913004994C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4637F472B3148B180D95488 /* Pods-YLCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
