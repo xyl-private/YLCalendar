@@ -23,6 +23,7 @@
 		7B892A7F21103913004994C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B892A7D21103913004994C8 /* LaunchScreen.storyboard */; };
 		7B892A8221103913004994C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A8121103913004994C8 /* main.m */; };
 		7B892A8F21103C79004994C8 /* YLCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B892A8E21103C79004994C8 /* YLCalendarController.m */; };
+		7BE8B6E42110677D000FDE3B /* YLCalendarWeekTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8B6E32110677D000FDE3B /* YLCalendarWeekTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		7B892A8121103913004994C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B892A8D21103C79004994C8 /* YLCalendarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCalendarController.h; sourceTree = "<group>"; };
 		7B892A8E21103C79004994C8 /* YLCalendarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCalendarController.m; sourceTree = "<group>"; };
+		7BE8B6E22110677D000FDE3B /* YLCalendarWeekTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCalendarWeekTitleView.h; sourceTree = "<group>"; };
+		7BE8B6E32110677D000FDE3B /* YLCalendarWeekTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCalendarWeekTitleView.m; sourceTree = "<group>"; };
 		E4637F472B3148B180D95488 /* Pods-YLCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar/Pods-YLCalendar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +160,8 @@
 				7B4766CF21105DCB009BE3C0 /* JYJobCalendarEventNorView.m */,
 				7B4766D021105DCB009BE3C0 /* JYJobCalendarTitleDateView.h */,
 				7B4766D221105DCC009BE3C0 /* JYJobCalendarTitleDateView.m */,
+				7BE8B6E22110677D000FDE3B /* YLCalendarWeekTitleView.h */,
+				7BE8B6E32110677D000FDE3B /* YLCalendarWeekTitleView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				7B892A8F21103C79004994C8 /* YLCalendarController.m in Sources */,
 				7B4766D621105DCC009BE3C0 /* JYJobCalendarEventNorView.m in Sources */,
 				7B892A8221103913004994C8 /* main.m in Sources */,
+				7BE8B6E42110677D000FDE3B /* YLCalendarWeekTitleView.m in Sources */,
 				7B4766D321105DCC009BE3C0 /* JYJobCalendarEventCell.m in Sources */,
 				7B4766D521105DCC009BE3C0 /* JYJobCalendarEventInfoContentCell.m in Sources */,
 				7B4766C421105DA8009BE3C0 /* JYJobCalendarEventModel.m in Sources */,
